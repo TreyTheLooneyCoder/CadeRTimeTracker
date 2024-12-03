@@ -2,6 +2,7 @@
   {
     "title": "Work",
     "timeframes": {
+
       "daily": {
         "current": 5,
         "previous": 7
@@ -14,11 +15,13 @@
         "current": 103,
         "previous": 128
       }
+
     }
   },
   {
     "title": "Play",
     "timeframes": {
+
       "daily": {
         "current": 1,
         "previous": 2
@@ -31,11 +34,13 @@
         "current": 23,
         "previous": 29
       }
+
     }
   },
   {
     "title": "Study",
     "timeframes": {
+
       "daily": {
         "current": 0,
         "previous": 1
@@ -48,11 +53,13 @@
         "current": 13,
         "previous": 19
       }
+
     }
   },
   {
     "title": "Exercise",
     "timeframes": {
+
       "daily": {
         "current": 1,
         "previous": 1
@@ -65,11 +72,13 @@
         "current": 11,
         "previous": 18
       }
+
     }
   },
   {
     "title": "Social",
     "timeframes": {
+
       "daily": {
         "current": 1,
         "previous": 3
@@ -82,11 +91,13 @@
         "current": 21,
         "previous": 23
       }
+
     }
   },
   {
     "title": "Self Care",
     "timeframes": {
+
       "daily": {
         "current": 0,
         "previous": 1
@@ -99,6 +110,7 @@
         "current": 7,
         "previous": 11
       }
+      
     }
   }
 ]
