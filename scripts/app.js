@@ -15,3 +15,17 @@ let socialTimePrevious = document.getElementById('socialTimePrevious');
 
 let selfCareTimeCurrent = document.getElementById('selfCareTimeCurrent');
 let selfCareTimePrevious = document.getElementById('selfCareTimePrevious');
+
+function GetHours(){
+    fetch('../data/data.json').then(
+        response => response.json()
+    ).then(
+        hours => hours
+    )
+}
+
+GetHours()
+
+function dailyTimes(){
+    
+}
