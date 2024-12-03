@@ -8,7 +8,7 @@ let studyHrs = document.getElementById('studyHrs');
 let exerciseHrs = document.getElementById('exerciseHrs');
 let socialHrs = document.getElementById('socialHrs');
 let selfCareHrs = document.getElementById('selfCareHrs');
-// I need a varable and functions for storing the monthly, daily and weekly hours seperately
+// I need a varable and/or functions for storing the monthly, daily and weekly hours seperately
 // I need a function to switch the times shown on the page 
 
 
