@@ -1,20 +1,7 @@
-let workTimeCurrent = document.getElementById('workTimeCurrent');
-let workTimePrevious = document.getElementById('workTimePrevious');
+// I need a variable to store previous and current times 
+// I need a varable and functions for storing the monthly, daily and weekly hours seperately 
+// I need a function to switch the times shown on the page 
 
-let playTimeCurrent = document.getElementById('playTimeCurrent');
-let playTimePrevious = document.getElementById('playTimePrevious');
-
-let studyTimeCurrent = document.getElementById('studyTimeCurrent');
-let studyTimePrevious = document.getElementById('studyTimePrevious');
-
-let ExerciseTimeCurrent = document.getElementById('ExerciseTimeCurrent');
-let ExerciseTimePrevious = document.getElementById('ExerciseTimePrevious');
-
-let socialTimeCurrent = document.getElementById('socialTimeCurrent');
-let socialTimePrevious = document.getElementById('socialTimePrevious');
-
-let selfCareTimeCurrent = document.getElementById('selfCareTimeCurrent');
-let selfCareTimePrevious = document.getElementById('selfCareTimePrevious');
 
 function GetHours(){
     fetch('../data/data.json').then(
@@ -25,7 +12,3 @@ function GetHours(){
 }
 
 GetHours()
-
-function dailyTimes(){
-    
-}
