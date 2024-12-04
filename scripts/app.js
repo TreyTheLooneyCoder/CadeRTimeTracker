@@ -1,15 +1,15 @@
-// I need a variable to store previous and current times, as well as the sections themselves 
-let currentTime;
-let previousTimes;
-
-let workHrs = document.getElementById('workHrs');
-let playHrs = document.getElementById('playHrs');
-let studyHrs = document.getElementById('studyHrs');
-let exerciseHrs = document.getElementById('exerciseHrs');
-let socialHrs = document.getElementById('socialHrs');
-let selfCareHrs = document.getElementById('selfCareHrs');
-// I need a varable and/or functions for storing the monthly, daily and weekly hours seperately
-// I need a function to switch the times shown on the page 
+let workCurrentTimes = document.getElementById('workCurrentTimes');
+let workPreviousTimes = document.getElementById('workPreviousTimes');
+let playCurrentTimes = document.getElementById('playCurrentTimes');
+let playPreviousTimes = document.getElementById('playPreviousTimes');
+let studykCurrentTimes = document.getElementById('studykCurrentTimes');
+let studyPreviousTimes = document.getElementById('studyPreviousTimes');
+let exerciseCurrentTimes = document.getElementById('exerciseCurrentTimes');
+let exercisePreviousTimes = document.getElementById('exercisePreviousTimes');
+let socialCurrentTimes = document.getElementById('socialCurrentTimes');
+let socialPreviousTimes = document.getElementById('socialPreviousTimes');
+let selfCareCurrentTimes = document.getElementById('selfCareCurrentTimes');
+let selfCarePreviousTimes = document.getElementById('selfCarePreviousTimes');
 
 
 function GetHours(){
@@ -22,6 +22,3 @@ function GetHours(){
 
 GetHours()
 
-function dailyHours(){
-    // currentTime = hours.
-}
