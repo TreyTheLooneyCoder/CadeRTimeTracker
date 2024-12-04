@@ -11,6 +11,10 @@ let socialPreviousTimes = document.getElementById('socialPreviousTimes');
 let selfCareCurrentTimes = document.getElementById('selfCareCurrentTimes');
 let selfCarePreviousTimes = document.getElementById('selfCarePreviousTimes');
 
+let dailyHrs = document.getElementById('dailyHrs');
+let weeklyHrs = document.getElementById('weeklyHrs');
+let monthlyHrs = document.getElementById('monthlyHrs');
+
 
 function GetHours(){
     fetch('../data/data.json').then(
