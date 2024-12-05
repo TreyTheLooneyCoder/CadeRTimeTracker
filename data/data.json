@@ -4,16 +4,16 @@
     "timeframes": {
 
       "daily": {
-        "current": "5hrs",
-        "previous": "7hrs"
+        "current": 5,
+        "previous": 7
       },
       "weekly": {
-        "current": "32hrs",
-        "previous": "36hrs"
+        "current": 32,
+        "previous": 36
       },
       "monthly": {
-        "current": "103hrs",
-        "previous": "128hrs"
+        "current": 103,
+        "previous": 128
       }
 
     }
@@ -23,16 +23,16 @@
     "timeframes": {
 
       "daily": {
-        "current": "1hr",
-        "previous": "2hrs"
+        "current": 1,
+        "previous": 2
       },
       "weekly": {
-        "current": "10hrs",
-        "previous": "8hrs"
+        "current": 10,
+        "previous": 8
       },
       "monthly": {
-        "current": "23hrs",
-        "previous": "29hrs"
+        "current": 23,
+        "previous": 29
       }
 
     }
@@ -42,16 +42,16 @@
     "timeframes": {
 
       "daily": {
-        "current": "0hrs",
-        "previous": "1hr"
+        "current": 0,
+        "previous": 1
       },
       "weekly": {
-        "current": "4hrs",
-        "previous": "7hrs"
+        "current": 4,
+        "previous": 7
       },
       "monthly": {
-        "current": "13hrs",
-        "previous": "19hrs"
+        "current": 13,
+        "previous": 19
       }
 
     }
@@ -61,16 +61,16 @@
     "timeframes": {
 
       "daily": {
-        "current": "1hr",
-        "previous": "1hr"
+        "current": 1,
+        "previous": 1
       },
       "weekly": {
-        "current": "4hrs",
-        "previous": "5hrs"
+        "current": 4,
+        "previous": 5
       },
       "monthly": {
-        "current": "11hrs",
-        "previous": "18hrs"
+        "current": 11,
+        "previous": 18
       }
 
     }
@@ -80,16 +80,16 @@
     "timeframes": {
 
       "daily": {
-        "current": "1hr",
-        "previous": "3hrs"
+        "current": 1,
+        "previous": 3
       },
       "weekly": {
-        "current": "5hrs",
-        "previous": "10hrs"
+        "current": 5,
+        "previous": 10
       },
       "monthly": {
-        "current": "21hrs",
-        "previous": "23hrs"
+        "current": 21,
+        "previous": 23
       }
 
     }
@@ -99,16 +99,16 @@
     "timeframes": {
 
       "daily": {
-        "current": "0hrs",
-        "previous": "1hr"
+        "current": 0,
+        "previous": 1
       },
       "weekly": {
-        "current": "2hrs",
-        "previous": "2hrs"
+        "current": 2,
+        "previous": 2
       },
       "monthly": {
-        "current": "7hrs",
-        "previous": "11hrs"
+        "current": 7,
+        "previous": 11
       }
 
     }
