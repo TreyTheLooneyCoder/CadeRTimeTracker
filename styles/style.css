@@ -1,3 +1,34 @@
+/* General Use */
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+.text-font {
+    font-family: 'Rubik','Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+}
+
+.weight-300 {
+    font-weight: 300;
+    font-size: 56px;
+    color: white;
+}
+
+.weight-400 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #BBC0FF;
+}
+
+.weight-500 {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+/* General Use End */
+
+
+/* Body */
 .body-bg {
     background-color: #0E1323;
     justify-content: center;
@@ -19,7 +50,10 @@
     margin-right: 165px;
 
 }
+/* Body End */
 
+
+/* Report Card */
 .r-bg-box {
     grid-column: 1;
     grid-row: span 2;
@@ -29,8 +63,10 @@
 
     max-width: 255px;
     max-height: 518px;
-    
-    color: white;
+}
+
+.r-bg-box > p {
+    padding-left: 10%;
 }
 
 .r-img {
@@ -48,21 +84,23 @@
     max-width: 255px;
     max-height: 354px;
     
-    padding: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
 }
+/* Report Card End*/
 
+
+/* Work Card */
 .w-bg-box {
     background-color: #FF8B64;
     background-image: url("../images/icon-work.svg");
     background-repeat: no-repeat;
-    background-position: 80% 0%;
+    background-position: 90% -5%;
 
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
-
-    color: white;
 
     display: flex;
     align-items: end;
@@ -72,6 +110,10 @@
     grid-column: 2;
     grid-row: 1;
 
+    background-image: url("../images/icon-ellipsis.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 15%;
+
     background-color: #1C204B;
     border-radius: 5%;
     
@@ -79,21 +121,21 @@
     height: 199px;
 
     padding-left: 5%;
-
 }
+/* Work Card End */
 
+
+/* Play Card */
 .p-bg-box {
     background-color: #55C2E6;
     background-image: url("../images/icon-play.svg");
     background-repeat: no-repeat;
-    background-position: 80% 0%;
+    background-position: 90% -5%;
 
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
-
-    color: white;
 
     display: flex;
     align-items: end;
@@ -103,6 +145,10 @@
     grid-column: 3;
     grid-row: 1;
 
+    background-image: url("../images/icon-ellipsis.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 15%;
+
     background-color: #1C204B;
     border-radius: 5%;
     
@@ -111,19 +157,20 @@
 
     padding-left: 5%;
 }
+/* Play Card End */
 
+
+/* Study Card */
 .st-bg-box {
     background-color: #FF5E7D;
     background-image: url("../images/icon-study.svg");
     background-repeat: no-repeat;
-    background-position: 80% 0%;
+    background-position: 90% -5%;
 
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
-
-    color: white;
 
     display: flex;
     align-items: end;
@@ -133,6 +180,10 @@
     grid-column: 4;
     grid-row: 1;
 
+    background-image: url("../images/icon-ellipsis.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 15%;
+
     background-color: #1C204B;
     border-radius: 5%;
     
@@ -141,19 +192,20 @@
 
     padding-left: 5%;
 }
+/* Study Card End */
 
+
+/* Exercise Card */
 .e-bg-box {
     background-color: #4BCF82;
     background-image: url("../images/icon-exercise.svg");
     background-repeat: no-repeat;
-    background-position: 80% 0%;
+    background-position: 90% -5%;
 
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
-
-    color: white;
 
     display: flex;
     align-items: end;
@@ -163,6 +215,10 @@
     grid-column: 2;
     grid-row: 2;
 
+    background-image: url("../images/icon-ellipsis.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 15%;
+
     background-color: #1C204B;
     border-radius: 5%;
     
@@ -171,19 +227,20 @@
 
     padding-left: 5%;
 }
+/* Exercise Card End */
 
+
+/* Social Card */
 .s-bg-box {
     background-color: #7335D2;
     background-image: url("../images/icon-social.svg");
     background-repeat: no-repeat;
-    background-position: 80% 0%;
+    background-position: 90% -5%;
 
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
-
-    color: white;
 
     display: flex;
     align-items: end;
@@ -193,6 +250,10 @@
     grid-column: 3;
     grid-row: 2;
 
+    background-image: url("../images/icon-ellipsis.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 15%;
+
     background-color: #1C204B;
     border-radius: 5%;
     
@@ -201,19 +262,20 @@
 
     padding-left: 5%;
 }
+/* Social Card */
 
+
+/* Self Care Card */
 .sc-bg-box {
     background-color: #F1C75B;
     background-image: url("../images/icon-self-care.svg");
     background-repeat: no-repeat;
-    background-position: 80% 0%;
+    background-position: 90% -5%;
 
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
-
-    color: white;
 
     display: flex;
     align-items: end;
@@ -223,6 +285,10 @@
     grid-column: 4;
     grid-row: 2;
 
+    background-image: url("../images/icon-ellipsis.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 15%;
+
     background-color: #1C204B;
     border-radius: 5%;
     
@@ -231,3 +297,4 @@
 
     padding-left: 5%;
 }
+/* Self Care Card */

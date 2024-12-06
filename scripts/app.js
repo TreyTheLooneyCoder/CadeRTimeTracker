@@ -1,19 +1,24 @@
+// Current
 let workCurrentTimes = document.getElementById('workCurrentTimes');
-let workPreviousTimes = document.getElementById('workPreviousTimes');
 let playCurrentTimes = document.getElementById('playCurrentTimes');
-let playPreviousTimes = document.getElementById('playPreviousTimes');
 let studykCurrentTimes = document.getElementById('studykCurrentTimes');
-let studyPreviousTimes = document.getElementById('studyPreviousTimes');
 let exerciseCurrentTimes = document.getElementById('exerciseCurrentTimes');
-let exercisePreviousTimes = document.getElementById('exercisePreviousTimes');
 let socialCurrentTimes = document.getElementById('socialCurrentTimes');
-let socialPreviousTimes = document.getElementById('socialPreviousTimes');
 let selfCareCurrentTimes = document.getElementById('selfCareCurrentTimes');
+
+// Previous
+let workPreviousTimes = document.getElementById('workPreviousTimes');
+let playPreviousTimes = document.getElementById('playPreviousTimes');
+let studyPreviousTimes = document.getElementById('studyPreviousTimes');
+let exercisePreviousTimes = document.getElementById('exercisePreviousTimes');
+let socialPreviousTimes = document.getElementById('socialPreviousTimes');
 let selfCarePreviousTimes = document.getElementById('selfCarePreviousTimes');
 
+// Buttons
 let dailyBtn = document.getElementById('dailyBtn');
 let weeklyBtn = document.getElementById('weeklyBtn');
 let monthlyBtn = document.getElementById('monthlyBtn');
+
 
 async function GetHours() {
     const promise = await fetch("../data/data.json");
