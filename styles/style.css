@@ -32,7 +32,8 @@
 .body-bg {
     background-color: #0E1323;
     justify-content: center;
-    
+    max-width: 1440px;
+    max-height: 1024px;
 }
 
 .grid-layout {
@@ -62,7 +63,7 @@
     border-radius: 5%;
 
     max-width: 255px;
-    max-height: 518px;
+    max-height: 18px;
 }
 
 .r-bg-box > p {
@@ -86,6 +87,10 @@
     
     padding-top: 10px;
     padding-left: 15px;
+}
+
+.btnHover:hover {
+    color: white;
 }
 /* Report Card End*/
 
@@ -122,6 +127,10 @@
 
     padding-left: 5%;
 }
+
+.w-front-box:hover {
+    background-color: #33397A;
+}
 /* Work Card End */
 
 
@@ -156,6 +165,10 @@
     height: 199px;
 
     padding-left: 5%;
+}
+
+.p-front-box:hover {
+    background-color: #33397A;
 }
 /* Play Card End */
 
@@ -192,6 +205,10 @@
 
     padding-left: 5%;
 }
+
+.st-front-box:hover {
+    background-color: #33397A;
+}
 /* Study Card End */
 
 
@@ -226,6 +243,10 @@
     height: 199px;
 
     padding-left: 5%;
+}
+
+.e-front-box:hover {
+    background-color: #33397A;
 }
 /* Exercise Card End */
 
@@ -262,6 +283,10 @@
 
     padding-left: 5%;
 }
+
+.s-front-box:hover {
+    background-color: #33397A;
+}
 /* Social Card */
 
 
@@ -296,5 +321,9 @@
     height: 199px;
 
     padding-left: 5%;
+}
+
+.sc-front-box:hover {
+    background-color: #33397A;
 }
 /* Self Care Card */
