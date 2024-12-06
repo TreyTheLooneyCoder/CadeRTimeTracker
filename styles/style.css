@@ -53,12 +53,19 @@
 
 .w-bg-box {
     background-color: #FF8B64;
+    background-image: url("../images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
 
     color: white;
+
+    display: flex;
+    align-items: end;
 }
 
 .w-front-box {
@@ -71,16 +78,25 @@
     width: 257px;
     height: 199px;
 
+    padding-left: 5%;
+
 }
 
 .p-bg-box {
     background-color: #55C2E6;
+    background-image: url("../images/icon-play.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
 
     color: white;
+
+    display: flex;
+    align-items: end;
 }
 
 .p-front-box {
@@ -93,16 +109,24 @@
     width: 257px;
     height: 199px;
 
+    padding-left: 5%;
 }
 
 .st-bg-box {
     background-color: #FF5E7D;
+    background-image: url("../images/icon-study.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
 
     color: white;
+
+    display: flex;
+    align-items: end;
 }
 
 .st-front-box {
@@ -115,16 +139,24 @@
     width: 257px;
     height: 199px;
 
+    padding-left: 5%;
 }
 
 .e-bg-box {
     background-color: #4BCF82;
+    background-image: url("../images/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
 
     color: white;
+
+    display: flex;
+    align-items: end;
 }
 
 .e-front-box {
@@ -137,16 +169,24 @@
     width: 257px;
     height: 199px;
 
+    padding-left: 5%;
 }
 
 .s-bg-box {
     background-color: #7335D2;
+    background-image: url("../images/icon-social.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
 
     color: white;
+
+    display: flex;
+    align-items: end;
 }
 
 .s-front-box {
@@ -159,16 +199,24 @@
     width: 257px;
     height: 199px;
 
+    padding-left: 5%;
 }
 
 .sc-bg-box {
     background-color: #F1C75B;
+    background-image: url("../images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+
     border-radius: 5%;
 
     width: 255px;
     height: 244px;
 
     color: white;
+
+    display: flex;
+    align-items: end;
 }
 
 .sc-front-box {
@@ -181,4 +229,5 @@
     width: 257px;
     height: 199px;
 
+    padding-left: 5%;
 }

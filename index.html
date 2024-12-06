@@ -1,101 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 
   <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body class="body-bg">
 
   <div class="grid-layout">
 
     <!-- Report For -->
     <div class="r-bg-box">
-  
+
       <div class="r-front-box">
         <div>
           <img class="r-img" src="./images/image-jeremy.png" alt="Jeremy">
         </div>
-        
+
         <div class="r-front-text">
-          
+
           <h6>Report for</h6>
           <h1>Jeremy Robson</h1>
-          
+
         </div>
       </div>
-      
+
       <p id="dailyBtn">Daily</p>
       <p id="weeklyBtn">Weekly</p>
       <p id="monthlyBtn">Monthly</p>
-      
-      
+
+
     </div>
     <!-- Report For End -->
-  
-  
+
+
     <!-- Work -->
     <div class="w-bg-box">
-      <img src="./images/icon-work.svg" alt="Work section Icon">
 
       <div class="w-front-box">
         <h3>Work</h3>
-  
+
         <h1 id="workCurrentTimes"></h1>
         <h6 id="workPreviousTimes"></h6>
 
       </div>
     </div>
     <!-- Work End -->
-  
-   
+
+
     <!-- Play -->
     <div class="p-bg-box">
-      <img src="./images/icon-play.svg" alt="Play section Icon.">
 
       <div class="p-front-box">
-        <p>Play</p>
-  
+        <h3>Play</h3>
+
         <h1 id="playCurrentTimes"></h1>
         <h6 id="playPreviousTimes"></h6>
 
       </div>
     </div>
     <!-- Play End -->
-  
-    
+
+
     <!-- Study -->
     <div class="st-bg-box">
-      <img src="./images/icon-study.svg" alt="Study section Icon.">
 
       <div class="st-front-box">
-        <p>Study</p>
-  
+        <h3>Study</h3>
+
         <h1 id="studykCurrentTimes"></h1>
         <h6 id="studyPreviousTimes"></h6>
 
       </div>
     </div>
     <!-- Study End -->
-  
-    
+
+
     <!-- Exercise -->
     <div class="e-bg-box">
-      <img src="./images/icon-exercise.svg" alt="Exercise section Icon.">
 
       <div class="e-front-box">
-        <p>Exercise</p>
+        <h3>Exercise</h3>
 
         <h1 id="exerciseCurrentTimes"></h1>
         <h6 id="exercisePreviousTimes"></h6>
@@ -103,29 +108,27 @@
       </div>
     </div>
     <!-- Exercise End -->
-  
-    
+
+
     <!-- Social -->
     <div class="s-bg-box">
-      <img src="./images/icon-social.svg" alt="Social section Icon.">      
-      
+
       <div class="s-front-box">
-        <p>Social</p>
+        <h3>Social</h3>
 
         <h1 id="socialCurrentTimes"></h1>
         <h6 id="socialPreviousTimes"></h6>
-      
+
       </div>
     </div>
     <!-- Social End -->
-  
-    
+
+
     <!-- Self Care -->
     <div class="sc-bg-box">
-      <img src="./images/icon-self-care.svg" alt="Self-Care section Icon.">
-      
+
       <div class="sc-front-box">
-        <p>Self Care</p>
+        <h3>Self Care</h3>
 
         <h1 id="selfCareCurrentTimes"></h1>
         <h6 id="selfCarePreviousTimes"></h6>
@@ -135,13 +138,14 @@
     <!-- Self Care End -->
 
   </div>
-  
-  
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 
   <script src="./scripts/app.js"></script>
 </body>
+
 </html>
