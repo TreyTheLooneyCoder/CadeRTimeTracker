@@ -38,7 +38,6 @@ GetHours().then(data => {
 })
 
 dailyBtn.addEventListener("click", function(){
-
     GetHours().then(data => {
         workCurrentTimes.innerText = `${data[0].timeframes.daily.current}hrs`;
         workPreviousTimes.innerText = `Yesterday  - ${data[0].timeframes.daily.previous}hrs`;
@@ -56,7 +55,6 @@ dailyBtn.addEventListener("click", function(){
 })
 
 weeklyBtn.addEventListener("click", function(){
-
     GetHours().then(data => {
         workCurrentTimes.innerText = `${data[0].timeframes.weekly.current}hrs`;
         workPreviousTimes.innerText = `Last Week  - ${data[0].timeframes.weekly.previous}hrs`;
@@ -74,7 +72,6 @@ weeklyBtn.addEventListener("click", function(){
 })
 
 monthlyBtn.addEventListener("click", function(){
-
     GetHours().then(data => {
         workCurrentTimes.innerText = `${data[0].timeframes.monthly.current}hrs`;
         workPreviousTimes.innerText = `Last Month  - ${data[0].timeframes.monthly.previous}hrs`;
